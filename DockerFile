@@ -1,7 +1,0 @@
-FROM centos
-WORKDIR /app
-RUN yum update -y
-RUN npm install
-EXPOSE 8080
-
-
